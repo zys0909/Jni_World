@@ -1,5 +1,6 @@
 package com.example.jni;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -45,6 +46,7 @@ public class VoiceActivity extends AppCompatActivity {
     }
 
     // 六个 点击事件
+    @SuppressLint("NonConstantResourceId")
     public void onFix(View view) {
         switch (view.getId()) {
             case R.id.btn_normal:

@@ -13,9 +13,6 @@ file(GLOB ALL_CPP *.c *.h *.cpp)
 #list(APPEND cpp_srcs ${c_srcs})
 
 
-project("jni")
-
-
 add_library( # 设置生成的libary 的名字.
         native-lib
 
